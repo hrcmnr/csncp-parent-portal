@@ -1,0 +1,143 @@
+.collapse .dropdown-item {
+    padding-left: 30px; /* Indent dropdown items */
+}
+
+.wrapper {
+    display: flex;
+}
+
+.content {
+    margin-left: 250px; /* Make sure content does not overlap with the sidebar */
+    padding: 20px;
+    width: calc(100% - 250px); /* Ensure the content fills the remaining space */
+}
+.sidebar {
+    width: 250px;
+    position: fixed;
+    height: 100%;
+    background-color: #f8f9fa;
+    padding: 20px;
+}
+.content {
+    margin-left: 250px;
+    padding: 20px;
+}
+h1 {
+    font-size: 24px;
+    color: #333;
+    font-weight: 500;
+    text-align: center;
+}
+
+.table {
+    background-color: #fff;
+    border-collapse: collapse;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.table thead th {
+    border-bottom: 1px solid #ddd;
+    color: #555;
+    font-weight: 600;
+    background-color: #f9f9f9;
+}
+
+.table tbody tr:hover {
+    background-color: #f1f1f1;
+}
+
+.table tbody td {
+    border-top: none;
+    color: #666;
+    padding: 12px;
+    text-align: left;
+}
+
+/* Button styling */
+.btn-info {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    transition: background-color 0.3s;
+}
+.btn-info:hover {
+    background-color: #0056b3;
+}
+.card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.card:hover {
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+}
+
+.card-header {
+    font-weight: bold;
+    background-color: #fff;
+    border-bottom: none;
+    color: #333;
+    text-align: center;
+}
+
+.card-body {
+    text-align: center;
+    padding: 20px;
+    color: #555;
+}
+
+.card-title {
+    font-size: 2rem;
+    color: #007bff;
+    font-weight: 700;
+}
+
+.card-text {
+    color: #666;
+    font-size: 0.9rem;
+}
+
+/* Table styling */
+.table {
+    background-color: #fff;
+    border-collapse: collapse;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.table th, .table td {
+    padding: 12px;
+    text-align: left;
+}
+
+/* Button styles for View, Approve, Reject */
+.btn-info {
+    background-color: #007bff;
+    border: none;
+    color: #fff;
+    transition: background-color 0.3s;
+}
+.btn-info:hover {
+    background-color: #0056b3;
+}
+
+.btn-success {
+    background-color: #28a745;
+    border: none;
+    transition: background-color 0.3s;
+}
+.btn-success:hover {
+    background-color: #218838;
+}
+
+.btn-danger {
+    background-color: #dc3545;
+    border: none;
+    transition: background-color 0.3s;
+}
+.btn-danger:hover {
+    background-color: #c82333;
+}
